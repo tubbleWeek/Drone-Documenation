@@ -58,3 +58,26 @@ source ~/.zshrc
 ```
 
 _This lets the OS know where your ROS package is located so you can run ROS-related commands_
+
+Then install ROS development tools:
+
+```
+sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+```
+
+Then initialize the tools using:
+
+```
+sudo apt install python3-rosdep
+```
+
+Followed with:
+
+```
+sudo rosdep init
+rosdep update
+```
+
+
+
+
