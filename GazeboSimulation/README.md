@@ -43,3 +43,12 @@ In your root `~` folder run:
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
+
+**zzh**
+
+In your root `~` folder run:
+
+```
+echo "source /opt/ros/noetic/setup.zsh" >> ~/.zshrc
+source ~/.zshrc
+```
