@@ -10,6 +10,21 @@ If you do not have ROS noetic here is a quick guide:
 
 Steps:
 
+Add the installation keys for ROS
+```
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
 ```
 
+If you don't have CURL:
+
+```
+sudo apt install curl
+```
+
+Then Install:
+
+```
+sudo apt update
+sudo apt install ros-noetic-desktop-full
 ```
