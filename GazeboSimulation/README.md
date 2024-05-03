@@ -31,4 +31,15 @@ sudo apt update
 sudo apt install ros-noetic-desktop-full
 ```
 
-_I install `ros-noetic-desktop-full` because it contains many tools that can be used there are other versions that are lighter_
+_I install `ros-noetic-desktop-full` because it contains many tools that can be used there are other lighter versions_
+
+If you use:
+
+**Bash**
+
+In your root `~` folder run:
+
+```
+echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+```
