@@ -88,6 +88,15 @@ To get catkin:
 sudo apt-get update
 sudo apt-get install python3-catkin-tools
 ```
+<br />
+<br />
+To create your first catkin workspace:
 
+```
+cd ~
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws/
+catkin_make
+```
 
 
