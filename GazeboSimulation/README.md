@@ -78,6 +78,14 @@ sudo rosdep init
 rosdep update
 ```
 
+I will use catkin for most of this project
+
+To get catkin:
+
+```
+sudo apt-get update
+sudo apt-get install python3-catkin-tools
+```
 
 
 
