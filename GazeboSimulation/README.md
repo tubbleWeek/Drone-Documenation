@@ -57,4 +57,4 @@ echo "source /opt/ros/noetic/setup.zsh" >> ~/.zshrc
 source ~/.zshrc
 ```
 
-__This lets the OS know where your ROS package is located so you can run ROS related commands__
+_This lets the OS know where your ROS package is located so you can run ROS-related commands_
