@@ -98,5 +98,5 @@ mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/
 catkin_make
 ```
-
+_The name `catkin_ws` is just common convention you can name it whatever you want_
 
