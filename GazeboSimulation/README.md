@@ -34,7 +34,8 @@ sudo apt install ros-noetic-desktop-full
 ```
 
 _I install `ros-noetic-desktop-full` because it contains many tools that can be used, there are other lighter versions that you can install instead_
-
+<br />
+<br />
 If you use:
 
 **Bash**
@@ -56,7 +57,8 @@ source ~/.zshrc
 ```
 
 _This lets the OS know where your ROS package is located so you can run ROS-related commands_
-
+<br />
+<br />
 Then install ROS development tools:
 
 ```
@@ -75,6 +77,8 @@ Followed with:
 sudo rosdep init
 rosdep update
 ```
+<br />
+<br />
 
 I will use catkin for most of this project
 
