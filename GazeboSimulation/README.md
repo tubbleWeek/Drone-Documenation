@@ -28,7 +28,7 @@ If you don't have CURL:
 sudo apt install curl
 ```
 
-Then Install:
+Then to Install:
 
 ```
 sudo apt update
@@ -56,3 +56,5 @@ In your root `~` folder run:
 echo "source /opt/ros/noetic/setup.zsh" >> ~/.zshrc
 source ~/.zshrc
 ```
+
+__This lets the OS know where your ROS package is located so you can run ROS related commands__
