@@ -1,5 +1,8 @@
 # Drone Simulation in Gazebo
 
+I will be using an API and models developed by [Intelligent-Quads](https://github.com/Intelligent-Quads), you can find very in-depth tutorials and documentation on their github
+
+
 ## Setup for Environment
 
 If you do not have github installed run:
