@@ -152,7 +152,7 @@ Split into two different terminals using `ctrl + b "`
 
 You can navigate between these two windows using:
 
-`ctrl + b &#8593;` or ` ctrl + b &#8595;`
+`ctrl + b &8593;` or ` ctrl + b &8595;`
 
 
 
