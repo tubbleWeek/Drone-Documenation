@@ -90,7 +90,7 @@ make waf build
 
 _Disclaimer: This may take awhile_
 
-### Installing Gazebo
+## Installing Gazebo
 
 Source gazebo by running in your root terminal:
 
