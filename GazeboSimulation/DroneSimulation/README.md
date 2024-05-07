@@ -50,5 +50,19 @@ After this is completed reload ArduPilot's profile using:
 . ~/.profile
 ```
 
+I will be using the Copter module in ArduPilot:
+
+```
+git checkout Copter-4.0.4
+git config --global url.https://.insteadOf git://
+git submodule update --init --recursive
+```
+
+The to test to see if the install was successfull 
+
+```
+cd ~/ardupilot/ArduCopter
+sim_vehicle.py -w
+```
 
 
