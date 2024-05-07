@@ -148,7 +148,7 @@ Open TMUX using:
 tmux
 ```
 
-&uarr
+&uarr;
 
 
 
