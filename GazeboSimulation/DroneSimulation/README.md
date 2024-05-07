@@ -58,6 +58,17 @@ git config --global url.https://.insteadOf git://
 git submodule update --init --recursive
 ```
 
+Now we will need to compile the code in ArduPilot
+
+Run:
+```
+./waf configure
+make waf build
+```
+
+_Disclaimer: This may take awhile_
+
+
 The to test to see if the install was successfull 
 
 ```
