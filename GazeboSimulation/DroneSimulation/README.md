@@ -148,7 +148,12 @@ Open TMUX using:
 tmux
 ```
 
-&uarr;
+Split into two different terminals using `ctrl + b "`
+
+You can navigate between these two windows using:
+
+`ctrl + b &#8593;` or ` ctrl + b &#8595;`
+
 
 
 
