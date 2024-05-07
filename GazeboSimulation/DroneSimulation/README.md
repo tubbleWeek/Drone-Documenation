@@ -169,6 +169,9 @@ sim_vehicle.py -v ArduCopter -f gazebo-iris --console
 
 ## Installing MAVROS and MAVLink
 
+_Assuming that you have set up your catkin workspace:_
+
+
 To install run:
 
 ```
