@@ -76,7 +76,7 @@ cd ~/ardupilot/ArduCopter
 sim_vehicle.py -w
 ```
 
-This will launch a SITL simulation, you can stop it using 'ctrl + c' in the terminal
+This will launch a SITL simulation, you can stop it using `ctrl + c` in the terminal
 
 
 Now we will need to compile the code in ArduPilot
