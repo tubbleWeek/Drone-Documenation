@@ -3,7 +3,7 @@
 ### Prerequisites
 1. Ubuntu/Linux **20.04**
 
-**It is important to use `ROS 1` most distributions of `ROS 1` will be compatible**
+**It is important to use `ROS 1` the distribution used will be noetic**
 <br />
 <br />
 <br />
