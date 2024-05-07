@@ -27,7 +27,7 @@ snap install helix --classic
 ```
 
 
-### Installing ArudPilot
+## Installing ArudPilot
 
 I will be using ArduPilot in this project, there are other flight controllers such as PX4 that you can use
 
@@ -90,6 +90,65 @@ make waf build
 
 _Disclaimer: This may take awhile_
 
+### Installing Gazebo
+
+Source gazebo by running in your root terminal:
+
+```
+sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-stable.list'
+wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
+sudo apt update
+```
+
+Install gazebo with:
+
+```
+sudo apt-get install gazebo11 libgazebo11-dev
+```
+
+### Installing ArduPilot Plugins For Gazebo
+
+Run in your root directory:
+
+```
+git clone https://github.com/khancyr/ardupilot_gazebo.git
+cd ardupilot_gazebo
+```
+
+Then build:
+
+```
+mkdir build
+cd build
+cmake ..
+make -j4
+sudo make install
+```
+
+Add source to bash:
+
+```
+echo 'source /usr/share/gazebo/setup.sh' >> ~/.bashrc
+```
+
+Add the models to gazebo's models:
+
+```
+echo 'export GAZEBO_MODEL_PATH=~/ardupilot_gazebo/models' >> ~/.bashrc
+. ~/.bashrc
+```
+
+### Running Gazebo Simulation
+
+I will use TMUX here but you can just open a new terminal window 
+
+Open TMUX using:
+
+```
+tmux
+```
+
+&uarr
 
 
 
