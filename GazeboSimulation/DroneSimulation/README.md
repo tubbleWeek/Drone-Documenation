@@ -192,6 +192,16 @@ catkin build
 
 _Disclaimer: This may take awhile_
 
+## Installing IQ API
+
+To get the IQ API run:
+
+```
+cd ~/catkin_ws/src
+git clone https://github.com/Intelligent-Quads/iq_sim.git
+git clone https://github.com/Intelligent-Quads/iq_gnc.git
+```
+
 
 
 
