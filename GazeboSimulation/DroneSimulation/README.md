@@ -18,7 +18,7 @@ TMUX is a tool that allows you to have multiple terminals in the same window
 
 For help with the commands you can visit [Tmux Cheat Sheet](https://tmuxcheatsheet.com/)
 
-**Optional** install HELIX
+**Optional:** install HELIX
 
 HELIX is a text editor, you can use anyother editor that fits your preference such as vim
 
