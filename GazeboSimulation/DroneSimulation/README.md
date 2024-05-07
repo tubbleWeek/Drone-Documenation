@@ -20,7 +20,7 @@ For help with the commands you can visit [Tmux Cheat Sheet](https://tmuxcheatshe
 
 **Optional:** install HELIX
 
-HELIX is a text editor, you can use anyother editor that fits your preference such as vim
+HELIX is a text editor, you can use any other editor that fits your preference such as vim
 
 ```
 snap install helix --classic
@@ -39,7 +39,7 @@ Navigate to your root folder 'cd ~' and run:
 git clone https://github.com/ArduPilot/ardupilot.git
 ```
 
-This will pull all the relevant files from ArduPilots github directory
+This will pull all the relevant files from ArduPilot's github directory
 
 Now navigate inside the arudpilot directory on your computer
 
@@ -47,7 +47,7 @@ Now navigate inside the arudpilot directory on your computer
 cd ardupilot
 ```
 
-And install its dependecies
+And install its dependencies
 
 ```
 Tools/environment_install/install-prereqs-ubuntu.sh -y
@@ -67,7 +67,7 @@ git config --global url.https://.insteadOf git://
 git submodule update --init --recursive
 ```
 
-To check if the intallation was successful:
+To check if the installation was successful:
 
 Run:
 
