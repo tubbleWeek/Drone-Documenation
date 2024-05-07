@@ -1,6 +1,6 @@
 # Drone Simulation in Gazebo
 
-## Setup for Enviroment
+## Setup for Environment
 
 If you do not have github installed run:
 
