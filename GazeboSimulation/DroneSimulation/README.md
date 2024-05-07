@@ -58,15 +58,26 @@ git config --global url.https://.insteadOf git://
 git submodule update --init --recursive
 ```
 
+To check if the intallation was successful:
+
+Run:
+
+```
+cd ~/ardupilot/ArduCopter
+sim_vehicle.py -w
+```
+
 Now we will need to compile the code in ArduPilot
 
 Run:
 ```
+cd ~/ardupilot
 ./waf configure
 make waf build
 ```
 
 _Disclaimer: This may take awhile_
+
 
 
 
