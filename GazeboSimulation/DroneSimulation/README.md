@@ -154,6 +154,19 @@ You can navigate between these two windows using:
 
 `ctrl + b ` &uarr; or ` ctrl + b` &darr;
 
+In one window run:
+
+```
+gazebo --verbose ~/ardupilot_gazebo/worlds/iris_arducopter_runway.world
+```
+
+And in the other run:
+
+```
+cd ~/ardupilot/ArduCopter/
+sim_vehicle.py -v ArduCopter -f gazebo-iris --console
+```
+
 
 
 
