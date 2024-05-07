@@ -36,7 +36,7 @@ I will be using ArduPilot in this project, there are other flight controllers su
 
 **To Install**
 
-Navigate to your root folder 'cd ~' and run:
+Navigate to your root folder `cd ~` and run:
 
 ```
 git clone https://github.com/ArduPilot/ardupilot.git
