@@ -69,11 +69,4 @@ make waf build
 _Disclaimer: This may take awhile_
 
 
-The to test to see if the install was successfull 
-
-```
-cd ~/ardupilot/ArduCopter
-sim_vehicle.py -w
-```
-
 
