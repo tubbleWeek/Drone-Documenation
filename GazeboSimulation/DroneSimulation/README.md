@@ -256,7 +256,7 @@ To run:
 rosrun {$package} {$file}
 ```
 
-where `{$package}` is the package your c++ or python files are in and {$file} is the file you want to run
+where `{$package}` is the package your c++ or python files are in and `{$file}` is the file you want to run
 
 An example
 
