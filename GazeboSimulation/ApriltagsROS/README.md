@@ -107,3 +107,9 @@ And:
 
 If it is easier you can just download and replace it
 
+## Running the Detector
+
+1. Start the Drone Simulation
+2. Insert the Apriltag model
+   - Use the one wiht the end tag `_00000`
+
