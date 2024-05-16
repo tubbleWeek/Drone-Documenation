@@ -35,3 +35,17 @@ cd ~/catkin_ws
 rosdep install --from-paths src --ignore-src -r -y  
 catkin build
 ```
+
+Now we need Apriltags models for Gazebo
+
+To get models:
+
+```
+git clone https://github.com/koide3/gazebo_apriltag.git
+cp -R gazebo_apriltag/models/* ~/.gazebo/models/
+```
+
+If you launch your Gazebo simulation you should be able to see the apriltags models in your models selection
+
+## Configuring Apriltags yaml files
+
