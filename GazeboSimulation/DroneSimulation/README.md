@@ -202,6 +202,49 @@ git clone https://github.com/Intelligent-Quads/iq_sim.git
 git clone https://github.com/Intelligent-Quads/iq_gnc.git
 ```
 
+Then build with:
 
+```
+cd ~/catkin_ws
+catkin build
+```
 
+Dowload the `start.sh` file included in this github directory
+
+You should now have everything you need to run the simulation
+
+## Running the Simulation
+
+**For each command run in a new terminal window**
+
+```
+roslaunch iq_sim {$world}
+```
+
+where {$world} should be replaced by the `.launch` file for gazebo, you can use `runway.launch` as a default
+
+In the directory where your `start.sh` file is located run:
+
+```
+./start.sh
+```
+
+And finally:
+
+```
+roslaunch iq_sim apm.launch
+```
+
+They do not need to be launched in this order, but it is best to do so
+
+**If you run into an error with mavros asking to install `install_geographiclib_datasets`**
+
+Run:
+
+```
+cd ~/catkin_ws/src/mavros/mavros/scripts
+./install_geographiclib_datasets
+```
+
+Then rerun the previous commands
 
