@@ -85,3 +85,7 @@ Now you need to edit the `tags.yaml` file
 
 It can be found in `~/catkin_ws/src/apriltag_ros/apriltag_ros/config`
 
+You need to edit it so it is the exact same at the `tags.yaml` that is posted in this directory
+
+If it is easier you can just download and replace it
+
