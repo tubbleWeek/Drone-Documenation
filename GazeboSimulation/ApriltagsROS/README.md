@@ -3,7 +3,7 @@
 _**This assumes you have already set up your drone simulation before hand**_
 
 
-## Setting up drone model
+## Setting up Drone Model
 
 For this I will have my drone's camera face downwards, you can have it face anywhere youu would like
 
@@ -21,4 +21,17 @@ To
 <pose>0 0 0.15 0 1.5 0</pose>
 ```
 
-You can either change the line or download the `.sdf` file I have included in this directory
+You can either change the line or download the model folder I have included in this directory
+
+## Getting Apriltags Locaization System
+
+To get run in a terminal window:
+
+```
+cd ~/catkin_ws/src                    
+git clone https://github.com/AprilRobotics/apriltag.git     
+git clone https://github.com/AprilRobotics/apriltag_ros.git 
+cd ~/catkin_ws                          
+rosdep install --from-paths src --ignore-src -r -y  
+catkin build
+```
