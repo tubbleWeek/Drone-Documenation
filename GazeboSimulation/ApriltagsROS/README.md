@@ -110,6 +110,6 @@ If it is easier you can just download and replace it
 ## Running the Detector
 
 1. Start the Drone Simulation
-2. Insert the Apriltag model
+2. Insert the Apriltag model - in the insert tab in Gazebo(It is near the top left of the Gazebo window)
    - Use the one wiht the end tag `_00000`
 
