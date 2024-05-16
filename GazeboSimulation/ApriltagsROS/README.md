@@ -96,7 +96,6 @@ By adding:
 And:
 
 ```
-
      {
        name: 'CUSTOM_BUNDLE_NAME',
        layout:
