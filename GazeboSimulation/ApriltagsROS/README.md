@@ -79,6 +79,8 @@ To:
   <arg name="image_topic" default="image_raw" />
 ```
 
+Now you need to edit the ``
+
 Then save and close this file
 
 
