@@ -33,7 +33,7 @@ git clone https://github.com/AprilRobotics/apriltag.git
 git clone https://github.com/AprilRobotics/apriltag_ros.git 
 cd ~/catkin_ws                          
 rosdep install --from-paths src --ignore-src -r -y  
-catkin build
+catkin buildNow 
 ```
 
 Now we need Apriltags models for Gazebo
@@ -48,4 +48,38 @@ cp -R gazebo_apriltag/models/* ~/.gazebo/models/
 If you launch your Gazebo simulation you should be able to see the apriltags models in your models selection
 
 ## Configuring Apriltags yaml files
+
+While your drone simulation is running in another termianl run:
+
+```
+rostopic list
+```
+
+From there you should see under what name your camera is publishing its images
+
+If you followed the Drone Simulation setup it should be publishing under the name `webcam`
+
+Now we need to edit the `continuous_detection.launch`
+
+It can be found in `~/catkin_ws/src/apriltag_ros/launch`
+
+You will need to change lines 6 & 7
+
+From:
+
+```
+  <arg name="camera_name" default="/camera_rect" />
+  <arg name="image_topic" default="image_rect" />
+```
+
+To:
+
+```
+  <arg name="camera_name" default="/webcam" />
+  <arg name="image_topic" default="image_raw" />
+```
+
+Then save and close this file
+
+
 
