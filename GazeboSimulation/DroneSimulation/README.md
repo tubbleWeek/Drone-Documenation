@@ -263,3 +263,19 @@ Example:
 rosrun iq_gnc square
 ```
 
+## Adding C++ files
+
+I have included a c++ file called `continuous_square.cpp` that you can add you your src
+
+make sure to add the file to your CMake file in the directory it is located in
+
+You can do this by adding the lines 
+
+```
+add_executable(cont_square src/continuous_square.cpp)
+target_link_libraries(cont_square ${catkin_LIBRARIES})
+```
+
+This should be everything you need to get a drone simulation running in Gazebo.
+
+If you run into any errors or issues let me know I will try my best to fix the problems or at least propose a solution
