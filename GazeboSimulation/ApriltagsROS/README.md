@@ -23,7 +23,7 @@ To
 
 You can either change the line or download the model folder I have included in this directory
 
-## Getting Apriltags Locaization System
+## Getting Apriltags Localization System
 
 To get Aoriltags run in a terminal window:
 
