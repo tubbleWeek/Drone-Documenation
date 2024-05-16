@@ -221,7 +221,7 @@ You should now have everything you need to run the simulation
 roslaunch iq_sim {$world}
 ```
 
-where {$world} should be replaced by the `.launch` file for gazebo, you can use `runway.launch` as a default
+where `{$world}` should be replaced by the `.launch` file for gazebo, you can use `runway.launch` as a default
 
 In the directory where your `start.sh` file is located run:
 
