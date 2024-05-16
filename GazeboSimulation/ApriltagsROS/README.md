@@ -25,7 +25,7 @@ You can either change the line or download the model folder I have included in t
 
 ## Getting Apriltags Locaization System
 
-To get run in a terminal window:
+To get Aoriltags run in a terminal window:
 
 ```
 cd ~/catkin_ws/src                    
