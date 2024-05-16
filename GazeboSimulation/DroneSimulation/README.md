@@ -248,3 +248,19 @@ cd ~/catkin_ws/src/mavros/mavros/scripts
 
 Then rerun the previous commands
 
+You can now run ROS nodes that interact with your drone the IQ directories contain code that can be run 
+
+To run:
+
+```
+rosrun {$package} {$file}
+```
+
+where `{$package}` is the package your c++ or python files are in and {$file} is the file you want to run
+
+An example
+
+```
+rosrun iq_gnc square
+```
+
