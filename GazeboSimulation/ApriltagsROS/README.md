@@ -87,5 +87,24 @@ It can be found in `~/catkin_ws/src/apriltag_ros/apriltag_ros/config`
 
 You need to edit it so it is the exact same at the `tags.yaml` that is posted in this directory
 
+By adding:
+
+```
+      {id: 0, size: 1.0, name: tag0}
+```
+
+And:
+
+```
+
+     {
+       name: 'CUSTOM_BUNDLE_NAME',
+       layout:
+         [
+           {id: 0, size: 1.0, x: 0, y: 0, z: 0, qw: 0, qx: 0, qy: 0, qz: 0}
+         ]
+     }
+```
+
 If it is easier you can just download and replace it
 
