@@ -111,5 +111,27 @@ If it is easier you can just download and replace it
 
 1. Start the Drone Simulation
 2. Insert the Apriltag model - in the insert tab in Gazebo(It is near the top left of the Gazebo window)
-   - Use the one wiht the end tag `_00000`
+   - Use the one with the end tag `_00000`
+3. Using the terminal window where you ran `./start.sh`
+   - Set the mode to guided using `mode guided`
+   - and launch drone with `arm throttle` and `takeoff 4`
+4. Position the tag underneath the drones camera
+   - The tag not appear to be present due to being in the ground plane, you can just move the tag up in the Z direction
+5. Run continuous_detection using ```roslaunch apriltag_ros continuous_detection.launch```
+
+You can see the results by echoing the `tag_detections` topic using"
+
+```
+rostopic echo tag_detections
+```
+
+You can also see the view of the camera using RVIZ
+
+Launch RVIZ with:
+
+```
+rosrun rviz rviz
+```
+
+Add a image using the add button and then open the dropdown menu for the image and select the image stream that you wish to view
 
