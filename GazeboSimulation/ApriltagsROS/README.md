@@ -174,7 +174,7 @@ apriltag_ros/AprilTagDetection[] detections
       float64[36] covariance
 ```
 
-By this heirarchy structure we can see that the position is located in `detection.pose.pose.pose.position`
+By this heirarchy structure we can see that the position is located in `detections.pose.pose.pose.position`
 
 I have written a simple subsciber node for ROS you can find it in this directory under the name `simple_listener.py`
 
