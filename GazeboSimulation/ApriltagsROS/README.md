@@ -5,7 +5,7 @@ _**This assumes you have already set up your drone simulation before hand**_
 
 ## Setting up Drone Model
 
-For this I will have my drone's camera face downwards, you can have it face anywhere youu would like
+For this I will have my drone's camera face downwards, you can have it face anywhere you would like
 
 In your drones `.sdf` file. _If you are using the IQ api then it can be found in `~/catkin_ws/src/iq_sim/models/drone_with_camera`_
 
