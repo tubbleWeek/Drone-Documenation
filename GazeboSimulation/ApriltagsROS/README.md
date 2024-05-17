@@ -135,3 +135,46 @@ rosrun rviz rviz
 
 Add a image using the add button and then open the dropdown menu for the image and select the image stream that you wish to view
 
+## Accessing The Data
+
+To access the data held in the `/tag_detections` topic first you need to see the structure of the topic
+
+You ucan do this by running:
+
+```
+rosmsg show rosmsg show apriltag_ros/AprilTagDetectionArray 
+```
+
+It should show:
+
+```
+std_msgs/Header header
+  uint32 seq
+  time stamp
+  string frame_id
+apriltag_ros/AprilTagDetection[] detections
+  int32[] id
+  float64[] size
+  geometry_msgs/PoseWithCovarianceStamped pose
+    std_msgs/Header header
+      uint32 seq
+      time stamp
+      string frame_id
+    geometry_msgs/PoseWithCovariance pose
+      geometry_msgs/Pose pose
+        geometry_msgs/Point position
+          float64 x
+          float64 y
+          float64 z
+        geometry_msgs/Quaternion orientation
+          float64 x
+          float64 y
+          float64 z
+          float64 w
+      float64[36] covariance
+```
+
+By this heirarchy structure we can see that the position is located in `detection.pose.pose.pose.position`
+
+I have written a simple subsciber node for ROS you can find it in this directory
+
