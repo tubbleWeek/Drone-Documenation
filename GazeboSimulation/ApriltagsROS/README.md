@@ -49,7 +49,7 @@ If you launch your Gazebo simulation you should be able to see the apriltags mod
 
 ## Configuring Apriltags yaml files
 
-While your drone simulation is running in another termianl run:
+While your drone simulation is running in another terminal run:
 
 ```
 rostopic list
