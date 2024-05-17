@@ -178,3 +178,9 @@ By this heirarchy structure we can see that the position is located in `detectio
 
 I have written a simple subsciber node for ROS you can find it in this directory under the name `simple_listener.py`
 
+You may notice that I have the line `msg.detections[0]...` 
+
+The index for the detections is the april tag being detected ie if I were to have 3 apriltags all being detected 
+
+then I would have to loop through `range(0,3)` to get all the data
+
