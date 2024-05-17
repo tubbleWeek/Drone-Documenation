@@ -21,7 +21,7 @@ To
 <pose>0 0 0.15 0 1.5 0</pose>
 ```
 
-You can either change the line or download the model folder I have included in this directory
+You can either change the line or download the `drone_with_camera` model folder I have included in this directory
 
 ## Getting Apriltags Localization System
 
