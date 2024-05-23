@@ -15,5 +15,7 @@ wine msiexec /i whatever-filename.msi
 wine start whatever-filename.msi
 ```
 
+You can then configure it according to the manual
 
+the IP for the phasespace is `cs.phasespace.cs.umn.edu` or `160.94.220.134`
 
