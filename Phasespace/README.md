@@ -39,3 +39,11 @@ rosrun ${package node is located in} listener
 Now if you have configured your master client correctly you should be able to see the positions of the LEDs being trasmitted to your computer
 
 **Please note in my system I have phantom LEDs this is why my listener loops through half of the marker list if your system does not then removethe changes I made**
+
+## Using Data
+
+I have attached a simple python script that uses matplotlib and rosbag to take data from the phasespace and convert it into graphs.
+
+To use just run `testrosbag.py` using python3
+
+You may have to specifie the path to the rosbag that is of interest
