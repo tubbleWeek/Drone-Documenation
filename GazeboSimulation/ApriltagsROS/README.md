@@ -142,7 +142,7 @@ To access the data held in the `/tag_detections` topic first you need to see the
 You ucan do this by running:
 
 ```
-rosmsg show rosmsg show apriltag_ros/AprilTagDetectionArray 
+rosmsg show apriltag_ros/AprilTagDetectionArray 
 ```
 
 It should show:
