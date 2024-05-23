@@ -46,4 +46,4 @@ I have attached a simple python script that uses matplotlib and rosbag to take d
 
 To use just run `testrosbag.py` using python3
 
-You may have to specifie the path to the rosbag that is of interest
+You may have to specify the path to the rosbag that is of interest
