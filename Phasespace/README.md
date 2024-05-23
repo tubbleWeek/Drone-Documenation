@@ -40,7 +40,7 @@ _You will need the master client to be open you can do this by running `roscore`
 
 Now if you have configured your master client correctly you should be able to see the positions of the LEDs being trasmitted to your computer
 
-**Please note in my system I have phantom LEDs this is why my listener loops through half of the marker list if your system does not then removethe changes I made**
+**Please note in my system I have phantom LEDs this is why my listener loops through half of the marker list if your system does not then remove the changes I made**
 
 ## Using Data
 
