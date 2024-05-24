@@ -49,7 +49,7 @@ I have attached a simple python script that uses matplotlib and rosbag to take d
 To use just run:
 
 ```
-python3 testrosbag.py
+python3 testrosbag.py {$NAME_OF_ROSBAG}
 ```
 
 You will have to give the file permissions to be executable, you can do this with
