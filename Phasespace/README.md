@@ -46,6 +46,16 @@ Now if you have configured your master client correctly you should be able to se
 
 I have attached a simple python script that uses matplotlib and rosbag to take data from the phasespace and convert it into graphs.
 
-To use just run `testrosbag.py` using python3
+To use just run:
+
+```
+python3 testrosbag.py
+```
+
+You will have to give the file permissions to be executable, you can do this with
+
+```
+chmod +x ${FILENAME}
+```
 
 You may have to specify the path to the rosbag that is of interest
