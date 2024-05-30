@@ -79,3 +79,37 @@ we can see the image topics we need the Apriltag node to subscribe too
 ```
 
 The two topics we are interested in are `/camera/color/camera_info` and `/camera/color/image_raw`
+
+Now we need to change the `continuous_detection.launch`
+
+the camera name topic needs to be changed to `/camera/color`
+
+save and exit, then open up `tags.yaml` in your apriltags_ros package
+
+Add the Apriltag that you are going to use into the standalone tags and tag bundles then save and exit
+
+## Running
+
+In one terminal run
+
+```
+roslaunch continuous_detection.launch
+```
+
+in another 
+
+```
+rostopic echo tag_detections
+```
+
+Now if you point your RealSense camera at the apriltag you should get the position of the camera with respect to the apriltag
+
+If you want to view the images coming from the realsense run
+
+```
+rosrun rviz rviz
+```
+
+and add an image that views the image topic of choice
+
+**If you are not getting your positions from the apriltag most likely it is an issue with the configs for apriltag_ros but you can also check the raw image using rviz**
