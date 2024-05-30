@@ -4,4 +4,7 @@
 
 ## Downloading the Intel RealSense SDK and ROS nodes
 
-Install the ROS packages as describe in [here]:https://github.com/IntelRealSense/realsense-ros/tree/ros1-legacy
+Install the ROS packages as describe in [here](https://github.com/IntelRealSense/realsense-ros/tree/ros1-legacy)
+
+**Please note this is for ROS1 there is another package that works for ROS2**
+
